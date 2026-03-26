@@ -20,11 +20,10 @@ body{
     justify-content: space-evenly;
 }
 #face{
-    width: 80%;
+    width: 70%;
 }
 #face_profile{
-    width: 20%;
-    /* height: 10%; */
+    width: 15%;
 }
 #instagram_icon{
     width: 3%;
@@ -49,13 +48,12 @@ body{
     align-items: center;
     text-align: center;
 }
-.container_profile,.container_certification{
+.container_profile{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 100vh; 
 }
 .content_profile{
     display: flex;
@@ -67,6 +65,26 @@ body{
 .content_profile,.container_certification > p{
     font-size: 160%;
 }
-#highschool_icon,#university_icon,#airforce_icon,#likeLion_icon{
+#highschool_icon,#university_icon,#airforce_icon{
     width: 3%;
+}
+#likeLion_icon{
+    width: 6%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.container_certification{
+    display: grid;
+    grid-template-columns:repeat(3,20%);
+    grid-gap: 5%;
+    justify-content: center;
+    text-align: center;
+}
+.container_certification :hover{
+    box-shadow:20px 20px 40px #ddd;
+}
+.certification > img{
+    width: 100%;
 }
